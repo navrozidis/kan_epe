@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kan-epe"
+version = "0.1.0"
+description = "Python library για ΚΑΝ.ΕΠΕ. (Κανονισμός Επεμβάσεων)"
+authors = [
+  {name="Navrozidis Vasileios", email="vnavrozidis@hotmail.com"}
+]
+license = {text="MIT"}
+dependencies = []
+requires-python = ">=3.8"
+
+[tool.setuptools]
+packages = ["kan_epe"]
