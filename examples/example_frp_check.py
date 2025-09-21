@@ -1,6 +1,6 @@
-from kan_epe.materials import Concrete, Steel, FRP
-from kan_epe.sections import RectangularSection, ReinforcedConcreteSection
-from kan_epe.checks import FRPCheck
+from kane_pe.materials import Concrete, Steel, FRP
+from kane_pe.sections import RectangularSection, ReinforcedConcreteSection
+from kane_pe.checks import FRPCheck
 
 # --- Δημιουργία αντικειμένου σκυροδέματος ---
 concrete = Concrete(fck=30, gamma_c=1.5, name="C30/37")  # fck σε MPa, συντελεστής γc, όνομα

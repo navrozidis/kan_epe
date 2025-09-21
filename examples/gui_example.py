@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
-from kan_epe.materials import Concrete, Steel, FRP
-from kan_epe.sections import RectangularSection, ReinforcedConcreteSection
-from kan_epe.checks import SectionCheck, FRPCheck
+from kane_pe.materials import Concrete, Steel, FRP
+from kane_pe.sections import RectangularSection, ReinforcedConcreteSection
+from kane_pe.checks import SectionCheck, FRPCheck
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib

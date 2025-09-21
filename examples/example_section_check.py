@@ -1,6 +1,6 @@
-from kan_epe.materials import Concrete, Steel
-from kan_epe.sections import RectangularSection, ReinforcedConcreteSection
-from kan_epe.checks import SectionCheck
+from kane_pe.materials import Concrete, Steel
+from kane_pe.sections import RectangularSection, ReinforcedConcreteSection
+from kane_pe.checks import SectionCheck
 
 # --- Δημιουργία αντικειμένου σκυροδέματος ---
 concrete = Concrete(fck=30)  # fck σε MPa

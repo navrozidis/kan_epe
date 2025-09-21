@@ -1,4 +1,4 @@
-from kan_epe.materials import Concrete
+from kane_pe.materials import Concrete
 
 # Δημιουργία αντικειμένου σκυροδέματος
 concrete = Concrete(fck=30, gamma_c=1.5, name="C30/37")
