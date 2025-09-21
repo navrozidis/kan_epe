@@ -1,7 +1,25 @@
+# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.egg-info/
+*.pyd
+*.pyc
+
+# Setuptools / build
 dist/
 build/
+*.egg-info/
+
+# Virtual environments
+.env/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
