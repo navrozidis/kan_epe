@@ -7,6 +7,6 @@ The `kan-epe` library provides classes and functions for reinforced concrete sec
 
 ## Installation
 
-From PyPI (when available):
+From PyPI :
 ```bash
 pip install kan-epe
